@@ -1,0 +1,21 @@
+h1{
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+  }
+  nav{
+
+     justify-content: center;
+     padding: 20px;
+     background-color: lightgrey;
+     justify-content: space-evenly;
+     
+     
+
+  }
+  body{
+   
+      background-image: url("https://i.pinimg.com/originals/b6/ab/0c/b6ab0c8276675c2724b76f7123a98cc3.jpg");
+    
+    
+  }
