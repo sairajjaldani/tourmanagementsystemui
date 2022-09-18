@@ -14,9 +14,16 @@ const CustomerHome=()=>{
                 <a class="nav-link" href="/MyCustomerProfile"><AccountCircleIcon/>  </a>
                 
             </nav>
+            
             <body >
+                <br/>
                 
+                
+                {/* <h1> Welcome to S Tours Managemnt System</h1>
+                <h1>Happy Tours</h1>
+                 */}
             </body>
+            
         </div>
         
     )

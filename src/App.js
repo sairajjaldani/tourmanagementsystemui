@@ -19,7 +19,10 @@ import AdminLogin from './components/admin/AdminLogin';
 import Booking from "./components/customer/Booking";
 import AddPackages from './components/admin/AddPackages';
 
+import Payment from './components/Payment';
+
 import TourBookingSuccess from './components/TourBookingSuccess';
+import Feedback from './components/Feedback';
 
 const App=()=>{
     return (
@@ -29,7 +32,9 @@ const App=()=>{
           
           <Route path='/' element={<Login />} />
           <Route path='/success' element={<TourBookingSuccess/>}/>
+          <Route path='/feedback' element={<Feedback/>}/>
           <Route path='/Booking' element={<Booking />} />
+          <Route path='/payments' element={<Payment/>}/>
           <Route path='/AddPackages' element={<AddPackages/>}/>
           <Route path='/AdminLogin' element={<AdminLogin/>} />
           <Route path='/SignOut' element={<SignOut />}/>

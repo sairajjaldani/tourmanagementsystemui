@@ -65,7 +65,11 @@ const CustomerReservedTours=()=>{
             </label>
             <br/>
             // <input type="number" placeholder='customerId'  id="customerId"/> */}
-             <Button onClick={Tour} variant="contained">get</Button>
+             <Button onClick={Tour} variant="contained">view Reserved Tours</Button>
+             <br/>
+             <br/>
+             <Button href="/payments" variant="contained">Payment</Button>
+             
         </center>
         <div className="container mx-auto my-8">
     <div className="flex shadow border-b mt-3">

@@ -39,10 +39,10 @@ const TourPackages = () => {
 //   };
 
 
-  const editCustomer=()=>{
+  // const editCustomer=()=>{
    
-    navigate("/Booking");
-  };
+  //   navigate("/Booking");
+  // };
 
   return (
     <>
@@ -66,7 +66,7 @@ const TourPackages = () => {
                         Mode of Travel</th>
                     <th className="text-left font-medium text-gray-600 uppercase tracking-wider py-3 px-6">
                         Package Cost PerPerson</th>
-                    <th className="text-left font-medium text-gray-600 uppercase tracking-wider py-3 px-6">Booking</th>
+                    {/* <th className="text-left font-medium text-gray-600 uppercase tracking-wider py-3 px-6">Booking</th> */}
                     
                     </tr> 
             </thead>
@@ -108,11 +108,11 @@ const TourPackages = () => {
                   </div>
                 
                 </td>
-                        <td className="text-right px-6 py-4 whitespace-nowrap font-medium text-sm">
-                    <button
+                        <td >
+                    {/* <button
                           onClick={editCustomer }
                           className="text-indigo-600 hover:text-indigo-800 hover:cursor-pointer px-4">Edit</button>
-                          
+                           */}
 
                           {/* <a 
                           onClick={(e, id) =>deletecustomer(e,customer.id) }

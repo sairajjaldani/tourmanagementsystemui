@@ -35,7 +35,7 @@ const MyCustomerProfile=()=>{
             <img src="https://png.pngtree.com/png-vector/20191125/ourlarge/pngtree-beautiful-profile-line-vector-icon-png-image_2035279.jpg" width="75" height="75"></img>
             <div>
               <br/>
-            {/* <b>customerId</b>      =     {getData.customerId} */}
+            <b>customerId</b>      =     {getData.customerId}
             </div>
             <div>
             <b>Firstname</b>       =     {getData.firstName}
@@ -52,7 +52,7 @@ const MyCustomerProfile=()=>{
             <div>
             <b>D.o.B</b>={getData.dateofBirth}
             </div>
-            <br/>
+           
             <br/>
             {/* <a class="nav-link" href="/SignOut">SignOut</a> */}
             <pre/> <Button

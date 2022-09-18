@@ -6,6 +6,7 @@ import { Button } from "@mui/material";
 
 
 
+
 function AddPackages(){
     
     const [packageName,setpackageName] = useState("");
@@ -52,8 +53,15 @@ function AddPackages(){
     }
 
     return(
-        <div>
-            <form onSubmit={handleSubmit}>
+        <div className="addpackage-container">
+          <centre>
+            <form className="addpackage-form" onSubmit={handleSubmit}>
+            <h2 className="font-sans text-center text-4xl mt-10 mb-2 font-bold">
+          Add packages Form
+        </h2>
+        <p className="text-center capitalize mb-2 hover:uppercase">
+          Fill Details Below to Add Package
+        </p>
             <TextField
           className="px-2"
           id="outlined-basic" label="packagename" variant="outlined"
@@ -118,6 +126,7 @@ function AddPackages(){
           
           
         />
+        <br/>
         <TextField
           className="px-2"
           id="outlined-basic" label="hotelName" variant="outlined"
@@ -129,6 +138,7 @@ function AddPackages(){
             sethotelName(event.target.value);
           }}
         />
+        <br/>
         <TextField
           className="px-2"
           id="outlined-basic" label="roomCostPerPerson" variant="outlined"
@@ -140,6 +150,7 @@ function AddPackages(){
             setroomCostPerPerson(event.target.value);
           }}
         />
+        <br/>
         <TextField
           className="px-2"
           id="outlined-basic" label="city" variant="outlined"
@@ -151,9 +162,10 @@ function AddPackages(){
             setcity(event.target.value);
           }}
         />
-        
+        <br/>
         <Button variant="contained" type="submit">Add</Button>
         </form>
+        </centre>
         </div>
     )
 
